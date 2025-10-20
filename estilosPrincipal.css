@@ -35,7 +35,7 @@
     }
 
     .menu, footer {
-      background-color: darkslategrey;
+      background-color: #023859;
       overflow: hidden;
       margin: 20px 0 50px 0;
       padding: 10px;
@@ -45,7 +45,7 @@
       
     }
     #elemento1{
-      background-color: darkgrey;
+      background-color: #04ADBF;
       border-radius: 4px;
     }
 
@@ -74,7 +74,7 @@
        }
 
           .menu a:hover {
-      background-color: lightslategrey;
+      background-color: #04ADBF;
             border-radius: 4px;
        }
 
@@ -130,3 +130,9 @@
       padding: 5px;
       margin-top: 10px;
     }
+
+    .imagen-centrada {
+      display: block;       /* convierte la imagen en bloque */
+      margin: 20px auto;    /* centra horizontalmente */
+
+}
