@@ -1,5 +1,8 @@
  body{
-      background-color: rgba(0, 0, 0, 0.623);
+      background-color: rgb(209, 209, 216);
+       flex-direction: column;
+        align-items: center;
+        justify-content: center
     }
     .form-group label {
       display: block;
@@ -133,9 +136,10 @@
 
     /* --- Contenedor de la tabla --- */
 table {
+  margin: 0 auto; /* centra horizontalmente */
   border-collapse: collapse;
   width: 80%;
-  max-width: 800px;
+  max-width: 900px;
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
